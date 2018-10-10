@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         val descriptionPart = RequestBody.create(MultipartBody.FORM, "hello, this is description")
 
+        //todo check if this part works fine
         val orignalFile = FileUtils.getFile(this, uri)
 
         val filePart = RequestBody.create(
